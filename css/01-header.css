@@ -3,12 +3,15 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  color: white;
+  color: #fff;
+  background: #eee;
 }
 
 header {
-  background: red;
+  position: relative;
+  background: #f00;
   border-bottom: solid, 10px, #eee;
+  z-index: 1;
 }
 
 .header-logo{
@@ -22,16 +25,17 @@ header {
 
 }
 
-.header-list li {
+.header-list > li {
   float: left;
   border-left: solid 1px #eee;
+  position: relative;
 }
 
 .header-nav {
   width: 900px;
   border-left: solid 1px #eee;
   border-right: solid 1px #eee;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
 }
 
 .header a {
@@ -39,6 +43,6 @@ header {
   padding: 10px 20px;
 }
 
-.header a:hover {
+.header li:hover {
   background: #000;
 }
