@@ -3,20 +3,19 @@
   position: relative;
   width: 900px;
   min-height: 200px;
-  /*background: yellow;*/
   margin: auto;
-
+  border: 1px solid #ccc;
+  border-top: none;
+  background: #fff;
 }
 
 .content-sidebar {
-  background: orange;
   width: 210px;
   float: left;
   padding: 20px;
 }
 
 .content-main {
-  background: yellow;
   float: right;
   width: 610px;
   padding: 20px;
