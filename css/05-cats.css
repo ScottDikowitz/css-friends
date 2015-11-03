@@ -2,10 +2,8 @@
 .content-header{
   position: relative;
   height: 200px;
-  overflow: none;
   background-image: url("./../shared/img/cats.jpg");
   background-size: 100%;
-
 }
 .content-header:after{
   content: "";

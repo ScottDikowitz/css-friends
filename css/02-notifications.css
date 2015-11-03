@@ -1,6 +1,6 @@
 /* PHASE 2: Notifications */
 
-.badge{
+.badge {
   border-radius: 50%;
 	width: 10px;
 	height: 10px;
@@ -23,14 +23,19 @@
   background: #fff;
   position: absolute;
   white-space: nowrap;
+
 }
 
-.notifications li:hover{
+li:hover{
   background: #eee;
 }
 
 .header-list li:hover .notifications {
   display: block;
+}
+
+.header-list:hover li:first-child a {
+  background: #000;
 }
 
 .notifications li {

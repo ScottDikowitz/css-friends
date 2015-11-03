@@ -7,10 +7,10 @@ body {
   background: #eee;
 }
 
-header {
+.header {
   position: relative;
   background: #f00;
-  border-bottom: solid, 10px, #eee;
+  border-bottom: solid 1px #eee;
   z-index: 1;
 }
 
@@ -43,6 +43,6 @@ header {
   padding: 10px 20px;
 }
 
-.header li:hover {
+.header a:hover {
   background: #000;
 }
