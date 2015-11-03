@@ -16,6 +16,7 @@
 }
 
 .content-main {
+  position: relative;
   float: right;
   width: 610px;
   padding: 20px;

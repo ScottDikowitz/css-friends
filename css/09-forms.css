@@ -1,1 +1,9 @@
 /* PHASE 9: Forms */
+form{
+  float: right;
+  color: #000;
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 530px;
+}
